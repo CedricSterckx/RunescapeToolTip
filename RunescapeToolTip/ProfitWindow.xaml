@@ -1,0 +1,27 @@
+﻿<Window x:Class="RunescapeToolTip.ProfitWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RunescapeToolTip"
+        mc:Ignorable="d"
+        Title="ProfitWindow" Height="300" Width="900"
+        Closed="Window_Closed">
+    <Grid>
+        <TextBox x:Name="txtBoxProfit" HorizontalAlignment="Left" Height="30" Margin="595,170,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="115" IsReadOnly="True" />
+        <Label x:Name="lblItemName" Content="Item Name" HorizontalAlignment="Left" Height="30" Margin="25,110,0,0" VerticalAlignment="Top" Width="115" BorderThickness="1,1,1,1" BorderBrush="Black"/>
+        <Label x:Name="lblPurchasePrice" Content="Purchase Price" HorizontalAlignment="Left" Height="30" Margin="310,110,0,0" VerticalAlignment="Top" Width="115"  BorderThickness="1,1,1,1" BorderBrush="Black" />
+        <Label x:Name="lblSellPrice" Content="Sell Price" HorizontalAlignment="Left" Height="30" Margin="455,110,0,0" VerticalAlignment="Top" Width="115"  BorderThickness="1,1,1,1" BorderBrush="Black" />
+        <Label x:Name="lblProfit" Content="Profit" HorizontalAlignment="Left" Height="30" Margin="595,110,0,0" VerticalAlignment="Top" Width="115" BorderThickness="1,1,1,1" BorderBrush="Black" />
+        <TextBox x:Name="txtBoxItemName" HorizontalAlignment="Left" Height="30" Margin="25,170,0,0" TextWrapping="Wrap" Text="Unkown item" VerticalAlignment="Top" Width="115"  GotFocus="txtBoxItemName_GotFocus" LostFocus="txtBoxItemName_LostFocus"  />
+        <TextBox x:Name="txtBoxPurchasePrice" HorizontalAlignment="Left" Height="30" Margin="310,170,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="115" TextChanged="txtBoxPurchasePrice_TextChanged" GotFocus="txtBoxPurchasePrice_GotFocus" LostFocus="txtBoxPurchasePrice_LostFocus"/>
+        <TextBox x:Name="txtBoxSellPrice" HorizontalAlignment="Left" Height="30" Margin="455,170,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="115" TextChanged="txtBoxSellPrice_TextChanged" GotFocus="txtBoxSellPrice_GotFocus" LostFocus="txtBoxSellPrice_LostFocus"/>
+        <Button x:Name="btnSave" Content="Register Profit" HorizontalAlignment="Left" Height="30" Margin="600,215,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="0.96,0.333" Click="btnSave_Click">
+            <Button.Background>CadetBlue</Button.Background>
+        </Button>
+        <Label x:Name="lblProfit_Copy" Content="Profit" HorizontalAlignment="Left" Height="30" Margin="595,110,0,0" VerticalAlignment="Top" Width="115" BorderThickness="1,1,1,1" BorderBrush="Black" />
+        <Label x:Name="lblQuantity" Content="Quantity" HorizontalAlignment="Left" Height="30" Margin="170,110,0,0" VerticalAlignment="Top" Width="115"  BorderThickness="1,1,1,1" BorderBrush="Black" />
+        <TextBox x:Name="txtBoxQuantity" HorizontalAlignment="Left" Height="30" Margin="170,170,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="115" TextChanged="txtBoxQuantity_TextChanged" GotFocus="txtBoxQuantity_GotFocus" LostFocus="txtBoxQuantity_LostFocus"/>
+
+    </Grid>
+</Window>

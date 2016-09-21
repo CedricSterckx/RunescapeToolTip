@@ -1,0 +1,16 @@
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\bin\Debug\RunescapeToolTip.exe.config
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\bin\Debug\RunescapeToolTip.exe
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\bin\Debug\RunescapeToolTip.pdb
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.csprojResolveAssemblyReference.cache
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\MainWindow.g.cs
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\ProfitWindow.g.cs
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\App.g.cs
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip_MarkupCompile.cache
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip_MarkupCompile.lref
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\MainWindow.baml
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\ProfitWindow.baml
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.g.resources
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.Properties.Resources.resources
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.csproj.GenerateResource.Cache
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.exe
+c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.pdb
