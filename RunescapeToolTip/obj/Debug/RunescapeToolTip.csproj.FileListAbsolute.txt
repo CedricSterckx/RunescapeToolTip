@@ -14,3 +14,19 @@ c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\Runesca
 c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.csproj.GenerateResource.Cache
 c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.exe
 c:\users\11500211\documents\visual studio 2015\Projects\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.pdb
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\bin\Debug\RunescapeToolTip.exe.config
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.exe
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.pdb
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\bin\Debug\RunescapeToolTip.exe
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\bin\Debug\RunescapeToolTip.pdb
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.csprojResolveAssemblyReference.cache
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\MainWindow.g.cs
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\ProfitWindow.g.cs
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\App.g.cs
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip_MarkupCompile.cache
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip_MarkupCompile.lref
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\MainWindow.baml
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\ProfitWindow.baml
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.g.resources
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.Properties.Resources.resources
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.csproj.GenerateResource.Cache

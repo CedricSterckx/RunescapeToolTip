@@ -14,7 +14,7 @@ namespace RunescapeToolTip
         public int SellPrice { get; set; }
         public int PurchasePrice { get; set; }
         public int Profit { get; set; }
-        StreamWriter outputstream;
+
 
         public Save(int quantity, int purchasePrice, int sellPrice, int profit)
         {
@@ -27,14 +27,36 @@ namespace RunescapeToolTip
 
         public void saveData()
         {
-            outputstream = File.CreateText("ProfitBackup.txt");
-            outputstream.WriteLine("Hello World");
-            outputstream.WriteLine("Dit is een tekst");
 
-            outputstream.Close();
-            MessageBox.Show("Job done");
+            try
+            {
+                using (StreamWriter writer = new StreamWriter("BackupProfit.txt", true))
+                {
+                    writer.WriteLine("Hello World");
+                    MessageBox.Show("azerty");
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occured.");
+
+            }
+            //finally
+            //{
+            //    if (outputstream != null)
+            //    {
+
+            //        outputstream.Close();
+
+
+            //    }
+            //}
+
+            MessageBox.Show("Succesfull save");
+
         }
-
 
 
     }
