@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
-
+using System.Text.RegularExpressions;
 
 namespace RunescapeToolTip
 {
@@ -26,7 +26,9 @@ namespace RunescapeToolTip
         private int sellPrice;
         private int profit;
         private int quantity;
+        private string itemName;
         private Save save;
+        // public int TotProfit { get; set; }
 
         private MainWindow mainwindow;
 
@@ -35,12 +37,13 @@ namespace RunescapeToolTip
             InitializeComponent();
 
             this.mainwindow = window;
-
+            itemName = "";
             purchasePrice = 0;
             sellPrice = 0;
             profit = 0;
             quantity = 0;
-            
+            save = new Save();
+
         }
 
         private void updateProfitlbl()
@@ -53,37 +56,42 @@ namespace RunescapeToolTip
 
         private void txtBoxPurchasePrice_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (txtBoxPurchasePrice.Text != "") { 
-
-            try
-            { 
-                this.purchasePrice = Convert.ToInt32(txtBoxPurchasePrice.Text);
-
-            }
-            catch (Exception)
+            if (txtBoxPurchasePrice.Text != "")
             {
-                MessageBox.Show("Wrong input, please retry! :D");
+
+
+                try
+                {
+                    this.purchasePrice = Convert.ToInt32(txtBoxPurchasePrice.Text.Replace(" ", ""));
+
+                }
+                catch (Exception)
+                {
+
+                }
+                updateProfitlbl();
             }
-            updateProfitlbl();
-        }
         }
 
 
         private void txtBoxSellPrice_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (txtBoxSellPrice.Text != "") { 
-            try
+            if (txtBoxSellPrice.Text != "")
             {
-                this.sellPrice = Convert.ToInt32(txtBoxSellPrice.Text);
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Wrong input, please retry! :D");
-            }
-            updateProfitlbl();
+                try
+                {
+                    this.sellPrice = Convert.ToInt32(txtBoxSellPrice.Text.Replace(" ", ""));
+                }
+                catch (Exception)
+                {
+
+                }
+                updateProfitlbl();
             }
 
         }
+
+
 
         private void txtBoxQuantity_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -91,16 +99,28 @@ namespace RunescapeToolTip
             {
                 try
                 {
-                    this.quantity = Convert.ToInt32(txtBoxQuantity.Text);
+                    this.quantity = Convert.ToInt32(txtBoxQuantity.Text.Replace(" ", ""));
                 }
                 catch (Exception)
                 {
-                    MessageBox.Show("Wrong input, please retry! :D");
+
                 }
                 updateProfitlbl();
             }
         }
 
+        private void txtBoxItemName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            this.itemName = txtBoxItemName.Text;
+            updateProfitlbl();
+        }
+
+        private void NumberValidationTextbox(object sender, TextCompositionEventArgs e)
+        {
+            // Regex regex = new Regex("[^0-9]+");
+            Regex regex = new Regex("^[0-9]*$");
+            e.Handled = !regex.IsMatch(e.Text);
+        }
 
         private void txtBoxPurchasePrice_GotFocus(object sender, RoutedEventArgs e)
         {
@@ -156,7 +176,7 @@ namespace RunescapeToolTip
             }
         }
 
-        
+
         private void Window_Closed(object sender, EventArgs e)
         {
             mainwindow.ProfitWindow = null;
@@ -165,8 +185,15 @@ namespace RunescapeToolTip
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
-            save = new Save(quantity, purchasePrice, sellPrice, profit);
-            save.saveData();
+
+            save.saveData(itemName, quantity, purchasePrice, sellPrice, profit);
+
+        }
+
+        private void btnPrintGeg_Click(object sender, RoutedEventArgs e)
+        {
+            save.printTransacties();
+
         }
     }
 

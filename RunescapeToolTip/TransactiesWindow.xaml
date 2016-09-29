@@ -1,0 +1,14 @@
+﻿<Window x:Class="RunescapeToolTip.TransactiesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RunescapeToolTip"
+        mc:Ignorable="d"
+        Title="TransactiesWindow" Height="300" Width="300">
+    <Grid>
+        <TextBlock x:Name="txtBlockPrint"  TextWrapping="Wrap" Text="" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" Margin="1,0,-1.4,30.4"  />
+        <Label x:Name="lblTotalProfit" Content="Total profit: Unkown" HorizontalAlignment="Left" Height="30" Margin="-5,240,-1.4,0" VerticalAlignment="Top" Width="300" BorderThickness="1" BorderBrush="Black"/>
+
+    </Grid>
+</Window>
