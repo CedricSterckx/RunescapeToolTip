@@ -5,17 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RunescapeToolTip"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="200">
-    <Grid>
+        Title="MainWindow" Height="200" Width="360">
+    <Grid Background="AntiqueWhite">
         <!--<Grid.Background>
             <ImageBrush ImageSource="Images/"></ImageBrush>
          <Button x:Name="btnProfit" Content="Profit"  Height="35"  Width="120" Click="btnProfit_Click"/>
                 <Button x:Name="btnMoneyMaking" Content="ATM Money Making" Click="btnMoneyMaking_Click"/>
         </Grid.Background>-->
-        <WrapPanel >
-            <Button x:Name="btnMoneyMaking" Content="ATM Money Making" Click="btnMoneyMaking_Click" Margin="10,100,10,10" Width="70" Height="50"/>
-            <Button  x:Name="btnProfit" Content="Profit" Click="btnProfit_Click" Margin="10,100,10,10"  Width="70" Height="50"/>
+
+        <Image Source="/Images/RunescapeBackGround.png" Height="100" Margin="70,0,97,69" HorizontalAlignment="Center"/>
+        <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="btnMoneyMaking" Content="ATM Money Making" Click="btnMoneyMaking_Click" Margin="10,100,10,10" Width="150" Height="50"/>
+            <Button  x:Name="btnProfit" Content="Profit" Click="btnProfit_Click" Margin="10,100,10,10"  Width="150
+                     " Height="50"/>
         </WrapPanel>
+        <Canvas HorizontalAlignment="Left" Height="100" Margin="185,80,0,-11" VerticalAlignment="Top" Width="100"/>
 
 
     </Grid>

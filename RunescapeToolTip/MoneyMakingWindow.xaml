@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:RunescapeToolTip"
         mc:Ignorable="d"
         Title="MoneyMakingWindow" Height="300" Width="600">
-    <Grid>
-        
+    <Grid Background="Crimson">
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="50" FontFamily="Times"  >Under Construction</Label>
     </Grid>
 </Window>

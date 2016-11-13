@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:RunescapeToolTip"
         mc:Ignorable="d"
         Title="TransactiesWindow" Height="300" Width="300">
-    <Grid>
+    <Grid Background="Beige">
         <TextBlock x:Name="txtBlockPrint"  TextWrapping="Wrap" Text="" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" Margin="1,0,-1.4,30.4"  />
         <Label x:Name="lblTotalProfit" Content="Total profit: Unkown" HorizontalAlignment="Left" Height="30" Margin="-5,240,-1.4,0" VerticalAlignment="Top" Width="300" BorderThickness="1" BorderBrush="Black"/>
 
