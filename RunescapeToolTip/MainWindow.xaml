@@ -5,12 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RunescapeToolTip"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="500">
+        Title="MainWindow" Height="200" Width="200">
     <Grid>
         <!--<Grid.Background>
             <ImageBrush ImageSource="Images/"></ImageBrush>
+         <Button x:Name="btnProfit" Content="Profit"  Height="35"  Width="120" Click="btnProfit_Click"/>
+                <Button x:Name="btnMoneyMaking" Content="ATM Money Making" Click="btnMoneyMaking_Click"/>
         </Grid.Background>-->
-        <Button x:Name="btnProfit" Content="Profit" HorizontalAlignment="Left" Height="35" Margin="330,285,0,0" VerticalAlignment="Top" Width="120" Click="btnProfit_Click"/>
+        <WrapPanel >
+            <Button x:Name="btnMoneyMaking" Content="ATM Money Making" Click="btnMoneyMaking_Click" Margin="10,100,10,10" Width="70" Height="50"/>
+            <Button  x:Name="btnProfit" Content="Profit" Click="btnProfit_Click" Margin="10,100,10,10"  Width="70" Height="50"/>
+        </WrapPanel>
+
 
     </Grid>
 </Window>

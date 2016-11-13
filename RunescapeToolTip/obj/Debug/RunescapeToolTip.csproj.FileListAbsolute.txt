@@ -32,3 +32,5 @@ C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\R
 C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\RunescapeToolTip.csproj.GenerateResource.Cache
 C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\TransactiesWindow.g.cs
 C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\TransactiesWindow.baml
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\MoneyMakingWindow.g.cs
+C:\Users\11500211\Documents\GitHub\RunescapeToolTip\RunescapeToolTip\obj\Debug\MoneyMakingWindow.baml

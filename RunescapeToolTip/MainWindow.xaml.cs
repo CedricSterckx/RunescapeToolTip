@@ -21,6 +21,7 @@ namespace RunescapeToolTip
     public partial class MainWindow : Window
     {
         public ProfitWindow ProfitWindow { get; set; }
+        public MoneyMakingWindow MoneyMakingWindow { get; set; }
 
         public MainWindow()
         {
@@ -38,5 +39,18 @@ namespace RunescapeToolTip
             ProfitWindow.Show();
             this.Hide();
         }
+
+        private void btnMoneyMaking_Click(object sender, RoutedEventArgs e)
+        {
+            if (MoneyMakingWindow == null)
+            {
+                MoneyMakingWindow = new MoneyMakingWindow(this);
+            }
+
+            MoneyMakingWindow.Show();
+            
+        }
+
+    
     }
 }
